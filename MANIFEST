@@ -1,0 +1,9 @@
+Changes
+MANIFEST
+MANIFEST.SKIP
+META.yml
+Makefile.PL
+README
+lib/Math/Symbolic/Custom/ErrorPropagation.pm
+perltidy.conf
+t/00basic.t
