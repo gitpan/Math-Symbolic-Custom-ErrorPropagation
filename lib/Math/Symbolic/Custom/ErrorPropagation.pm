@@ -9,7 +9,7 @@ use Math::Symbolic::Custom::Base;
 BEGIN { *import = \&Math::Symbolic::Custom::Base::aggregate_import }
 
 use Math::Symbolic::ExportConstants qw/:all/;
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 our $Aggregate_Export = [qw/apply_error_propagation/];
 
@@ -31,6 +31,8 @@ sub apply_error_propagation {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
